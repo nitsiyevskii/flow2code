@@ -1,3 +1,8 @@
-import {AppRegistry} from 'react-native';
+/**
+ * @format
+ */
 
-//AppRegistry.registerComponent(appName, () => App);
+import {AppRegistry} from 'react-native';
+import App from './app';
+
+AppRegistry.registerComponent('flow2code', () => App);
