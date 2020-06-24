@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:tasks.xcodeproj">
+      location = "group:/Users/ilyanitsiyeuski/Desktop/tasks/ios/flow2code.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

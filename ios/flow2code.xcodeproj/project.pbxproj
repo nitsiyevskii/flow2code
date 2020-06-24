@@ -20,6 +20,25 @@
 		2D517E9ACDED6211F08C00B2 /* libPods-tasks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 842FD88CA66504BAAA9CAF11 /* libPods-tasks-tvOS.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* tasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tasksTests.m */; };
 		3A0230D2AD6DFDA37D1B59B8 /* libPods-tasks-tasksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050781F9D5BEFEFD0D6E4E1 /* libPods-tasks-tasksTests.a */; };
+		0E6071F6B58848178D1939BC /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C57054A88EA7473CA9FF8B1D /* AntDesign.ttf */; };
+		F275DC08542D4AEB980F2DD1 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A165EEE0DDB48DBB83856B7 /* Entypo.ttf */; };
+		D89A8205C33449A3992E3CBF /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F7176BFEC8B495F818931AD /* EvilIcons.ttf */; };
+		0A150D63D4BF417ABDFB5EEE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332343ED5FC74F7A8000B25D /* Feather.ttf */; };
+		13A969F0E1BD47A19F5EC5AA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420965F1D3D248AAA8C15D79 /* FontAwesome.ttf */; };
+		624F5E6C0FD04EE0A4B2C396 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67E909EBF5B44496AF9849EA /* FontAwesome5_Brands.ttf */; };
+		8DDA3740C2194B54AACB7E76 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9343DE29F4B74D10BB561F6C /* FontAwesome5_Regular.ttf */; };
+		9F986314653348B9BB0BDD22 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30A99F0B3F434C41AFDFE888 /* FontAwesome5_Solid.ttf */; };
+		8E15FB02ED7B46809CA5E088 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A61235D565FA487A8D965D65 /* Fontisto.ttf */; };
+		B148A4DACE7644F6AA899582 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 790D2F682E944430B3E8793E /* Foundation.ttf */; };
+		2FD5D1B306534F0093F94034 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F88BC7786714BEA907B5CF0 /* Ionicons.ttf */; };
+		CA098C126C4B428EB3E0A09D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26F60E01927A41DCBF5BCDD5 /* MaterialCommunityIcons.ttf */; };
+		9525A36DDDFA41C2B66CF2D4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D3AD77012944FB9B760673 /* MaterialIcons.ttf */; };
+		AB007EDC9BF44EC983626C00 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7603C15C2ADB43159F3BD17B /* Octicons.ttf */; };
+		1947032097BF4C019463CE0F /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD38770CF5A4C5DA245172F /* Roboto_medium.ttf */; };
+		083FF78405D34CF986A90002 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47DA7C01D204AF6881841CB /* Roboto.ttf */; };
+		F20ECE8A78794959A4C44333 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E42AA3CA63840078DC37DD0 /* rubicon-icon-font.ttf */; };
+		CA561E553F0847AE929E20F9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9914FF3A271041E69280D31B /* SimpleLineIcons.ttf */; };
+		04B5428C93E2497F80FAB858 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53DE057A42FF4F068345BA1C /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +60,20 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* tasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* flow2codeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flow2codeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* tasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tasksTests.m; sourceTree = "<group>"; };
 		01689AAB4DEE983501FF8204 /* Pods-tasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tasks.debug.xcconfig"; path = "Target Support Files/Pods-tasks/Pods-tasks.debug.xcconfig"; sourceTree = "<group>"; };
 		0FD168E75C4337148BB509DE /* libPods-tasks-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasks-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* flow2code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flow2code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = tasks/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = tasks/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tasks/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tasks/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tasks/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* tasks-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tasks-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* tasks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tasks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* flow2code-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flow2code-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* flow2code-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flow2code-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55726010BB62C224608B8CFA /* libPods-tasks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7050781F9D5BEFEFD0D6E4E1 /* libPods-tasks-tasksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasks-tasksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842FD88CA66504BAAA9CAF11 /* libPods-tasks-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasks-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +86,25 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FF44B364434F8459DC9AA9AF /* Pods-tasks-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tasks-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tasks-tvOS/Pods-tasks-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C57054A88EA7473CA9FF8B1D /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A165EEE0DDB48DBB83856B7 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F7176BFEC8B495F818931AD /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		332343ED5FC74F7A8000B25D /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		420965F1D3D248AAA8C15D79 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67E909EBF5B44496AF9849EA /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9343DE29F4B74D10BB561F6C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30A99F0B3F434C41AFDFE888 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A61235D565FA487A8D965D65 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		790D2F682E944430B3E8793E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F88BC7786714BEA907B5CF0 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26F60E01927A41DCBF5BCDD5 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52D3AD77012944FB9B760673 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7603C15C2ADB43159F3BD17B /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACD38770CF5A4C5DA245172F /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B47DA7C01D204AF6881841CB /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E42AA3CA63840078DC37DD0 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9914FF3A271041E69280D31B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53DE057A42FF4F068345BA1C /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +160,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* tasks */ = {
+		13B07FAE1A68108700A75B9A /* flow2code */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +171,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = tasks;
+			name = flow2code;
 			sourceTree = "<group>";
 		};
 		1B11295A4D465B7983885A7B /* Pods */ = {
@@ -148,7 +186,6 @@
 				8B39BE33BE180CCA1E405C9B /* Pods-tasks-tvOSTests.debug.xcconfig */,
 				D09B0438616270D49D145F08 /* Pods-tasks-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,12 +212,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* tasks */,
+				13B07FAE1A68108700A75B9A /* flow2code */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* tasksTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1B11295A4D465B7983885A7B /* Pods */,
+				91A9463601DC4544AE2F7EED /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,20 +228,47 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* tasks.app */,
-				00E356EE1AD99517003FC87E /* tasksTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* tasks-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* tasks-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* flow2code.app */,
+				00E356EE1AD99517003FC87E /* flow2codeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* flow2code-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* flow2code-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		91A9463601DC4544AE2F7EED /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C57054A88EA7473CA9FF8B1D /* AntDesign.ttf */,
+				5A165EEE0DDB48DBB83856B7 /* Entypo.ttf */,
+				0F7176BFEC8B495F818931AD /* EvilIcons.ttf */,
+				332343ED5FC74F7A8000B25D /* Feather.ttf */,
+				420965F1D3D248AAA8C15D79 /* FontAwesome.ttf */,
+				67E909EBF5B44496AF9849EA /* FontAwesome5_Brands.ttf */,
+				9343DE29F4B74D10BB561F6C /* FontAwesome5_Regular.ttf */,
+				30A99F0B3F434C41AFDFE888 /* FontAwesome5_Solid.ttf */,
+				A61235D565FA487A8D965D65 /* Fontisto.ttf */,
+				790D2F682E944430B3E8793E /* Foundation.ttf */,
+				4F88BC7786714BEA907B5CF0 /* Ionicons.ttf */,
+				26F60E01927A41DCBF5BCDD5 /* MaterialCommunityIcons.ttf */,
+				52D3AD77012944FB9B760673 /* MaterialIcons.ttf */,
+				7603C15C2ADB43159F3BD17B /* Octicons.ttf */,
+				ACD38770CF5A4C5DA245172F /* Roboto_medium.ttf */,
+				B47DA7C01D204AF6881841CB /* Roboto.ttf */,
+				1E42AA3CA63840078DC37DD0 /* rubicon-icon-font.ttf */,
+				9914FF3A271041E69280D31B /* SimpleLineIcons.ttf */,
+				53DE057A42FF4F068345BA1C /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* tasksTests */ = {
+		00E356ED1AD99517003FC87E /* flow2codeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tasksTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flow2codeTests" */;
 			buildPhases = (
 				7139BC2DD2C9B5B016643662 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +280,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = tasksTests;
+			name = flow2codeTests;
 			productName = tasksTests;
-			productReference = 00E356EE1AD99517003FC87E /* tasksTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* flow2codeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* tasks */ = {
+		13B07F861A680F5B00A75B9A /* flow2code */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tasks" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flow2code" */;
 			buildPhases = (
 				F24DE902DFC7BFE79FC0BE6F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +300,14 @@
 			);
 			dependencies = (
 			);
-			name = tasks;
+			name = flow2code;
 			productName = tasks;
-			productReference = 13B07F961A680F5B00A75B9A /* tasks.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* flow2code.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* tasks-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* flow2code-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tasks-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flow2code-tvOS" */;
 			buildPhases = (
 				732085A2B2D902C565EC8164 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +320,14 @@
 			);
 			dependencies = (
 			);
-			name = "tasks-tvOS";
+			name = "flow2code-tvOS";
 			productName = "tasks-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* tasks-tvOS.app */;
+			productReference = 2D02E47B1E0B4A5D006451C7 /* flow2code-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* tasks-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* flow2code-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tasks-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flow2code-tvOSTests" */;
 			buildPhases = (
 				4E50A5A3C3E5335E177B2796 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +339,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "tasks-tvOSTests";
+			name = "flow2code-tvOSTests";
 			productName = "tasks-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* tasks-tvOSTests.xctest */;
+			productReference = 2D02E4901E0B4A5D006451C7 /* flow2code-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +370,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tasks" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flow2code" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +383,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* tasks */,
-				00E356ED1AD99517003FC87E /* tasksTests */,
-				2D02E47A1E0B4A5D006451C7 /* tasks-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* tasks-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* flow2code */,
+				00E356ED1AD99517003FC87E /* flow2codeTests */,
+				2D02E47A1E0B4A5D006451C7 /* flow2code-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* flow2code-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,6 +405,25 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				0E6071F6B58848178D1939BC /* AntDesign.ttf in Resources */,
+				F275DC08542D4AEB980F2DD1 /* Entypo.ttf in Resources */,
+				D89A8205C33449A3992E3CBF /* EvilIcons.ttf in Resources */,
+				0A150D63D4BF417ABDFB5EEE /* Feather.ttf in Resources */,
+				13A969F0E1BD47A19F5EC5AA /* FontAwesome.ttf in Resources */,
+				624F5E6C0FD04EE0A4B2C396 /* FontAwesome5_Brands.ttf in Resources */,
+				8DDA3740C2194B54AACB7E76 /* FontAwesome5_Regular.ttf in Resources */,
+				9F986314653348B9BB0BDD22 /* FontAwesome5_Solid.ttf in Resources */,
+				8E15FB02ED7B46809CA5E088 /* Fontisto.ttf in Resources */,
+				B148A4DACE7644F6AA899582 /* Foundation.ttf in Resources */,
+				2FD5D1B306534F0093F94034 /* Ionicons.ttf in Resources */,
+				CA098C126C4B428EB3E0A09D /* MaterialCommunityIcons.ttf in Resources */,
+				9525A36DDDFA41C2B66CF2D4 /* MaterialIcons.ttf in Resources */,
+				AB007EDC9BF44EC983626C00 /* Octicons.ttf in Resources */,
+				1947032097BF4C019463CE0F /* Roboto_medium.ttf in Resources */,
+				083FF78405D34CF986A90002 /* Roboto.ttf in Resources */,
+				F20ECE8A78794959A4C44333 /* rubicon-icon-font.ttf in Resources */,
+				CA561E553F0847AE929E20F9 /* SimpleLineIcons.ttf in Resources */,
+				04B5428C93E2497F80FAB858 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +641,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* tasks */;
+			target = 13B07F861A680F5B00A75B9A /* flow2code */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* tasks-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* flow2code-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -599,7 +683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasks.app/tasks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flow2code.app/flow2code";
 			};
 			name = Debug;
 		};
@@ -619,7 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasks.app/tasks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flow2code.app/flow2code";
 			};
 			name = Release;
 		};
@@ -643,7 +727,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = tasks;
+				PRODUCT_NAME = flow2code;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,7 +749,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = tasks;
+				PRODUCT_NAME = flow2code;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -749,7 +833,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.tasks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasks-tvOS.app/tasks-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flow2code-tvOS.app/flow2code-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -776,7 +860,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.tasks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasks-tvOS.app/tasks-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flow2code-tvOS.app/flow2code-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +981,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tasksTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flow2codeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +990,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tasks" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flow2code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +999,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tasks-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flow2code-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +1008,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tasks-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flow2code-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +1017,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tasks" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flow2code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
