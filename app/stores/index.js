@@ -2,6 +2,6 @@ import AuthStore from "./AuthStore";
 
 authStore = new AuthStore(rootStore)
 
-export default store = {
+export default stores = {
 	authStore: authStore
 };
