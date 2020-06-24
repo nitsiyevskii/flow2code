@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Provider, observer } from 'mobx-react';
 import stores from './stores';
 import SignInContainer from './screens/SignIn/SignInContainer';
-import SignUpContainer from './screens/SignUp/SignUpContainer';
+import DashboardContainer from './screens/Dashboard/DashboardContainer';
 
 const __DEV__ = true;
 if (!__DEV__) {
@@ -25,19 +25,16 @@ class App extends React.Component {
           <Stack.Navigator screenOptions={{
             headerShown: false
           }}>
-            <Stack.Screen name="SignIn" component={SignInContainer} />
-            <Stack.Screen name="SignUp" component={SignUpContainer} />
             {
-              /* isSignedIn ? (
+              isSignedIn ? (
                 <>
                   <Stack.Screen name="Dashboard" component={DashboardContainer} />
                 </>
               ) : (
                   <>
                     <Stack.Screen name="SignIn" component={SignInContainer} />
-                    <Stack.Screen name="SignUp" component={SignUpContainer} />
                   </>
-                ) */
+                )
             }
           </Stack.Navigator>
         </Provider>
