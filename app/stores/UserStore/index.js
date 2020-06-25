@@ -8,9 +8,14 @@ export default class UserStore {
 
     @action getInformation(session_id) {
         AuthService.get('/account', { session_id })
+            .then(res => {
+                if(res) {
+                    this.userName = res.username
+                }
+            })
     }
 
-    @action logout() {
+    @action setDefaultName() {
         this.userName = 'Guest'
     }
 }

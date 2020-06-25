@@ -9,6 +9,7 @@ import Colors from '../../global/Colors';
 class DashboardContainer extends Component {
     constructor(props) {
         super(props);
+        userStore.setDefaultName()
         if (!authStore.isGuest) userStore.getInformation(authStore.sessionId)
     }
 
@@ -17,7 +18,6 @@ class DashboardContainer extends Component {
     }
 
     logout = () => {
-        userStore.logout()
         authStore.logout()
     }
 
