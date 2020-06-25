@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import { inject, observer } from 'mobx-react'
-import { Container, Header, Form, Item, Input, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text, Label, CardItem, Card, List, ListItem, Thumbnail, View, Spinner } from 'native-base';
-import OverlaySpinner from 'react-native-loading-spinner-overlay'
+import { FlatList, ActivityIndicator } from 'react-native'
+import { Container, Header, Item, Input, Title, Button, Left, Right, Body, Icon, Text, ListItem, Thumbnail, View } from 'native-base';
 import Colors from '../../global/Colors';
-import { FlatList } from 'react-native-gesture-handler';
-import config from '../../config';
 
 @inject('stores')
 @observer
@@ -29,13 +27,14 @@ class DashboardContainer extends Component {
 
     onSearchChange = value => moviesStore.searchChange(value)
 
-    onSearchPress = () => moviesStore.searchMovies()
-
-    getMoreMovies = () => {
-        moviesStore.checkAvailableMovies()
+    onSearchPress = () => {
+        moviesStore.resetData()
+        moviesStore.searchMovies()
     }
 
-    openMovieDetails = (movieId) => this.props.navigation.navigate('MovieDetails', { movieId })
+    getMoreMovies = () => moviesStore.checkAvailableMovies()
+
+    openMovieDetails = (movieId, title) => this.props.navigation.navigate('MovieDetails', { movieId, title })
 
     renderMovie = ({ item }) =>
         <ListItem thumbnail>
@@ -48,16 +47,11 @@ class DashboardContainer extends Component {
                 {/* <Text note numberOfLines={1}>{item.overview}</Text> */}
             </Body>
             <Right>
-                <Button transparent onPress={() => this.openMovieDetails(item.id)}>
+                <Button transparent onPress={() => this.openMovieDetails(item.id, item.title)}>
                     <Text>View</Text>
                 </Button>
             </Right>
         </ListItem>
-
-    renderEmptyComponent = () =>
-        <Body style={{ paddingTop: 20 }}>
-            <Text style={{ fontStyle: 'italic', fontSize: 16 }}>LIST IS EMPTY</Text>
-        </Body>
 
 
     render() {
@@ -96,18 +90,39 @@ class DashboardContainer extends Component {
                         </Button>
                     </Header>
                 }
-                <Content>
+                <View style={{paddingBottom: 20}}>
+                    {
+                        isMoviesLoading &&
+                        <View style={{
+                            position: 'absolute',
+                            top: 0,
+                            left:0,
+                            right: 0,
+                            justifyContent: 'center',
+                            alignItems: 'center'
+                        }}>
+                            <ActivityIndicator size='large' color={Colors.gray} />
+                        </View>
+                        
+                    }
                     <FlatList
                         keyExtractor={item => item.id}
                         data={movies}
                         renderItem={this.renderMovie}
-                        ListEmptyComponent={this.renderEmptyComponent}
-                        onEndReached={this.getMoreMovies}
-                        onEndReachedThreshold={0.5}
+                        ListEmptyComponent={() =>
+                            <Body style={{ paddingTop: 20 }}>
+                                {
+                                    !isMoviesLoading &&
+                                    <Text style={{ fontStyle: 'italic', fontSize: 16 }}>LIST IS EMPTY</Text>
+                                }
+                            </Body>}
+                        onEndReachedThreshold={0.3}
                         initialNumToRender={30}
                         maxToRenderPerBatch={30}
+                        onEndReached={this.getMoreMovies}
                     />
-                </Content>
+                </View>
+
 
             </Container>
         )

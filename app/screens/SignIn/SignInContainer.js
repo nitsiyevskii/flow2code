@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { inject, observer } from 'mobx-react'
-import { Container, Header, Form, Item, Input, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text, Label, CardItem, Card } from 'native-base';
+import { Container, Header, Form, Item, Input, Title, Content, Button, Body, Text, Label } from 'native-base';
 import OverlaySpinner from 'react-native-loading-spinner-overlay'
 
 @inject('stores')

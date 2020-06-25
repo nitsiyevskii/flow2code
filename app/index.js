@@ -5,7 +5,7 @@ import { Provider, observer } from 'mobx-react';
 import stores from './stores';
 import SignInContainer from './screens/SignIn/SignInContainer';
 import DashboardContainer from './screens/Dashboard/DashboardContainer';
-import MovieDetailContainer from './screens/MovieDetail/MovieDetailContainer';
+import MovieDetailsContainer from './screens/MovieDetails/MovieDetailsContainer';
 
 const __DEV__ = true;
 if (!__DEV__) {
@@ -30,7 +30,7 @@ class App extends React.Component {
               isSignedIn ? (
                 <>
                   <Stack.Screen name="Dashboard" component={DashboardContainer} />
-                  <Stack.Screen name="MovieDetail" component={MovieDetailContainer} />
+                  <Stack.Screen name="MovieDetails" component={MovieDetailsContainer} />
                 </>
               ) : (
                   <>

@@ -1,4 +1,3 @@
-import config from '../../config.js'
 import AuthService from '../../services/AuthService'
 import { observable, action } from 'mobx'
 

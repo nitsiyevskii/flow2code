@@ -30,9 +30,8 @@ export default class MoviesStore {
         this.isMoviesLoading = true
         AuthService.get('/search/movie', { query: this.search, page: this.currentPage })
             .then(res => {
-                console.log(res)
                 if (res && res.results && res.results.length > 0) {
-                    this.movies = [...this.movies, ...res.results]
+                    this.movies.push(...res.results)
                     this.totalMoviesCount = res.total_results
                     this.currentPage += 1
                 }
@@ -50,6 +49,12 @@ export default class MoviesStore {
         if (!this.isMoviesLoading && this.movies.length < this.totalMoviesCount) {
             this.searchMovies()
         }
+    }
+
+    @action resetData() {
+        this.movies = []
+        this.totalMoviesCount = 0
+        this.currentPage = 1
     }
 
     @action clear() {
