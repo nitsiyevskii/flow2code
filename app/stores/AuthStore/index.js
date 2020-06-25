@@ -9,13 +9,16 @@ export default class AuthStore {
     @observable userName = ''
     @observable password = ''
     @observable isDataLoading = false
+    @observable isGuest = false
 
     constructor() {
+        this.isDataLoading = true
         getCache('sessionId').then(sessionId => {
             if (sessionId) {
                 this.sessionId = sessionId
                 this.isSignedIn = true
             }
+            this.isDataLoading = false
         })
     }
 
@@ -39,7 +42,6 @@ export default class AuthStore {
                     this.isSignedIn = true
                 }
             })
-            .catch(() => this.isDataLoading = false)
             .finally(() => this.isDataLoading = false)
     }
 
@@ -49,6 +51,7 @@ export default class AuthStore {
             .then(res => {
                 if (res && res.success) {
                     this.sessionId = res.guest_session_id
+                    this.isGuest = true
                     this.isSignedIn = true
                 }
             })
@@ -65,6 +68,7 @@ export default class AuthStore {
         this.token = null
         this.userName = ''
         this.password = ''
+        this.isGuest = false
         this.isDataLoading = false
         setCache('sessionId', null)
     }

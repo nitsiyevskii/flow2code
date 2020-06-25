@@ -87,8 +87,8 @@ function post(call, pass_data) {
                     }
                     setTimeout(() => {
                         Alert.alert(
-                            responseJson.msg,
                             'ERROR',
+                            responseJson.status_message,
                             [
                                 { text: 'Got it' },
                             ],
@@ -106,6 +106,60 @@ function post(call, pass_data) {
     });
 }
 
+function del(call, params) {
+    return new Promise(function (resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+        xhr.addEventListener('readystatechange', function (event) {
+            if (this.readyState === 4) {
+                if (this.status === 200) {
+                    let parsed;
+
+                    try {
+                        parsed = JSON.parse(this.responseText);
+                    } catch (e) {
+                        let responseJson;
+                        try {
+                            responseJson = JSON.parse(this.responseText);
+                        } catch (e) {
+                            responseJson = { msg: this.responseText };
+                            return reject(responseJson);
+                        }
+                        setTimeout(() => {
+                            Alert.alert(
+                                'ERROR',
+                                responseJson.status_message,
+                                [
+                                    { text: 'Got it' },
+                                ],
+                                { cancelable: false }
+                            );
+                        }, 100)
+                        reject(responseJson);
+                    }
+                    resolve(parsed);
+                } else {
+                    reject(JSON.parse(this.responseText));
+                }
+            }
+        });
+        let urlParameters = '';
+        params = { ...params, api_key: config.api_key }
+        if (params) {
+            if (params.constructor === Array) {
+                urlParameters += '?';
+                urlParameters += params.map(i => i[0] + '=' + i[1]).join('&');
+            } else {
+                urlParameters += '?';
+                urlParameters += Object.keys(params).map((i) => i + '=' + params[i]).join('&');
+            }
+        }
+        xhr.open('DELETE', `${config.domain}` + call + urlParameters, true);
+        xhr.setRequestHeader('cache-control', 'no-cache');
+        xhr.send();
+    });
+}
+
 function signIn(username, password) {
     return new Promise(function (resolve, reject) {
         try {
@@ -115,8 +169,11 @@ function signIn(username, password) {
                         .then(res =>
                             post('/authentication/session/new', { request_token: res.request_token })
                                 .then(res => resolve(res))
+                                .catch(err => reject(err)) 
                         )
+                        .catch(err => reject(err)) 
                 )
+                .catch(err => reject(err)) 
         } catch (err) {
             Alert.alert(
                 'Error',
@@ -135,4 +192,4 @@ function signInAsGuest() {
     return get('/authentication/guest_session/new')
 }
 
-export default { get, post, signIn, signInAsGuest };
+export default { get, post, del, signIn, signInAsGuest };

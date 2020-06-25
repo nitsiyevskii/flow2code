@@ -8,7 +8,7 @@ import config from '../../config';
 
 @inject('stores')
 @observer
-class DashboardContainer extends Component {
+class MovieDetailContainer extends Component {
     constructor(props) {
         super(props);
         if (!authStore.isGuest) userStore.getInformation(authStore.sessionId)
@@ -115,4 +115,4 @@ class DashboardContainer extends Component {
 
 }
 
-export default DashboardContainer;
+export default MovieDetailContainer;
